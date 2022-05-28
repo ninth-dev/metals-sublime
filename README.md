@@ -119,13 +119,32 @@ To troubleshoot problems with your build workspace, run `Doctor run` in the comm
 
 The following commands can be invoked simply via the sublime command palette.
 
-  - [Build Import](https://scalameta.org/metals/docs/editors/new-editor.html#import-build)
-  - [Build Connect](https://scalameta.org/metals/docs/editors/new-editor.html#connect-to-build-server)
-  - [compile Cascade](https://scalameta.org/metals/docs/editors/new-editor.html#cascade-compile)
-  - [Compile Cancel](https://scalameta.org/metals/docs/editors/new-editor.html#cancel-compilation)
-  - [Doctor Run](https://scalameta.org/metals/docs/editors/new-editor.html#run-doctor)
-  - [New Scala File](https://scalameta.org/metals/docs/editors/new-editor.html#create-new-scala-file): Also available in the side bar context menu. ![Peek 2020-07-19 16-48](https://user-images.githubusercontent.com/1632384/87877673-e5e37300-c9df-11ea-9516-6fccb221e3f6.gif) 
-
+  - [Ammonite Start](https://scalameta.org/metals/docs/integrations/new-editor/#start-ammonite-build-server)
+  - [Ammonite Stop](https://scalameta.org/metals/docs/integrations/new-editor/#stop-ammonite-build-server)
+  - [Analyze Stacktrace](https://scalameta.org/metals/docs/integrations/new-editor/#analyze-stacktrace)
+  - [BSP Switch](https://scalameta.org/metals/docs/integrations/new-editor/#switch-build-server)
+  - [Build Connect](https://scalameta.org/metals/docs/integrations/new-editor/#connect-to-build-server)
+  - [Build Import](https://scalameta.org/metals/docs/integrations/new-editor/#import-build)
+  - [Build Restart](https://scalameta.org/metals/docs/integrations/new-editor/#restart-build-server)
+  - [Compile Cancel](https://scalameta.org/metals/docs/integrations/new-editor/#cancel-compilation)
+  - [Compile Cascade](https://scalameta.org/metals/docs/integrations/new-editor/#cascade-compile)
+  - [Compile Clean](https://scalameta.org/metals/docs/integrations/new-editor/#clean-compile-workspace)
+  - [Copy Worksheet](https://scalameta.org/metals/docs/integrations/new-editor/#copy-worksheet-output)
+  - [Doctor Run](https://scalameta.org/metals/docs/integrations/new-editor/#run-doctor)
+  - [Find in dependency](https://scalameta.org/metals/docs/integrations/new-editor/#metalsfindtextindependencyjars)
+  - [Generate BSP config](https://scalameta.org/metals/docs/integrations/new-editor/#generate-bsp-config)
+  - [Goto Super Method](https://scalameta.org/metals/docs/integrations/new-editor/#go-to-super-methodfield-definition)
+  - [New Scala File](https://scalameta.org/metals/docs/editors/new-editor.html#create-new-scala-file): Also available in the side bar context menu. ![Peek 2020-07-19 16-48](https://user-images.githubusercontent.com/1632384/87877673-e5e37300-c9df-11ea-9516-6fccb221e3f6.gif)
+  - [Reset Choice](https://scalameta.org/metals/docs/integrations/new-editor/#reset-choice-popup)
+  - [Decode File](https://scalameta.org/metals/docs/integrations/new-editor/#decode-file)
+    - Show Decoded TASTy
+    - Show decompiled with javap
+    - Show decompiled with javap verbose
+    - Show semanticdb
+    - Show semanticdb detailed
+    - Show semanticdb proto
+  - [Sources Scan](https://scalameta.org/metals/docs/integrations/new-editor/#scan-sources)
+  - [Super Method Hierarchy](https://scalameta.org/metals/docs/integrations/new-editor/#go-to-super-methodfield-definition-in-hierarchy)
 
 ### Show document symbols
 
