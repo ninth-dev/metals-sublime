@@ -1,10 +1,11 @@
-from . lsp_metals_text_command import LspMetalsTextCommand
-from LSP.plugin.core.protocol import Notification
-from LSP.plugin.core.types import Optional, Dict, Any
+from __future__ import annotations
 
+from .lsp_metals_text_command import LspMetalsTextCommand
+from LSP.plugin import Notification
+import functools
 import sublime
 import sublime_plugin
-import functools
+
 
 class LspMetalsFocusViewCommand(LspMetalsTextCommand):
 
