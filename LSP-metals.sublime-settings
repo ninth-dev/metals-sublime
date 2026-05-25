@@ -22,24 +22,26 @@
 
   // initialization options
   "initialization_options": {
-    "didFocusProvider": true,
-    "executeClientCommandProvider": true,
-    "statusBarProvider": "on",
-    "inputBoxProvider": true,
     "commandInHtmlFormat": "sublime",
+    "didFocusProvider": true,
     "doctorProvider": "json",
+    "doctorVisibilityProvider": false,
+    "executeClientCommandProvider": true,
+    "inputBoxProvider": true,
     "isHttpEnabled": false,
-    "doctorVisibilityProvider": false
+    "statusBarProvider": "on",
   },
 
   "settings": {
-    "metals": {
-      "superMethodLensesEnabled": true,
-      "inlayHints.typeParameters.enable": false,
-      "inlayHints.implicitConversions.enable": false,
-      "inlayHints.implicitArguments.enable": false,
-      "inlayHints.inferredTypes.enable": false,
-      "inlayHints.hintsInPatternMatch.enable": false
-    }
+    "metals.superMethodLensesEnabled": true,
+    "metals.inlayHints.byNameParameters.enable": false,
+    "metals.inlayHints.closingLabels.enable": false,
+    "metals.inlayHints.hintsInPatternMatch.enable": false,
+    "metals.inlayHints.hintsXRayMode.enable": false,
+    "metals.inlayHints.implicitArguments.enable": false,
+    "metals.inlayHints.implicitConversions.enable": false,
+    "metals.inlayHints.inferredTypes.enable": false,
+    "metals.inlayHints.namedParameters.enable": false,
+    "metals.inlayHints.typeParameters.enable": false,
   }
 }
